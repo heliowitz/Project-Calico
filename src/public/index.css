@@ -1,0 +1,318 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#world {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(#e4e0ba, #f7d9aa);
+}
+#nameTitle{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: #f25346;
+	font-weight: 700;
+	position: absolute;
+	top:50vh;
+	left:50%;
+	margin-left:-165px;
+	text-align: center;
+	z-index: 50;
+}
+
+/*Header*/
+#headerBarContainer{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	position: absolute;
+	height: 50px;
+	width: 100vw;
+	top:0;
+	left:0;
+	z-index: 70;
+}
+#headerBarLeft{
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	height: 50px;
+	top:0;
+	left:0;
+	z-index:70;
+}
+#headerBarRight{
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	height: 50px;
+	top:0;
+	right:0;
+	z-index: 70;
+}
+.headerBarRightText{
+	float: left;
+	margin: 20px 20px 0px 0px;
+	color: #f25346;
+	z-index: 70;
+	cursor: pointer;
+}
+.headerBarLeftText{
+	float: left;
+	margin: 20px 0px 0px 20px;
+	color: #f25346;
+	z-index: 70;
+	cursor: pointer;
+}
+
+/*Overlay*/
+#overlay{
+	position: absolute;
+	width:100vw;
+	height:100vh;
+	background-color: rgba(35,25,15, 0.6);
+	overflow:auto;
+	opacity: 0;
+	z-index: 60;
+}
+.overlayShow #overlay{
+	opacity: 1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.4s ease-out;
+}
+.overlayShow #nameTitle{
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayShow .headerBarRightText{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayShow .headerBarLeftText{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayHide #overlay{
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayHide #nameTitle{
+	opacity: 1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayHide #About{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayHide #Projects{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.overlayHide #Resume{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+
+/*About*/
+#overlayAbout{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	z-index: 60;
+	bottom: -100vh;
+}
+#aboutText{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	color: #F5986E;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+}
+.aboutShow #overlayAbout{
+	visibility: visible;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
+}
+.aboutHide #overlayAbout{
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+}
+.aboutShow #About{
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.aboutHide #About{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.aboutSwitch #overlayAbout{
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+}
+.aboutSwitch #About{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+/*Projects*/
+#overlayProjects{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	z-index: 60;
+	bottom: -100vh;
+}
+#projectsText{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	color: #F5986E;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+}
+.projectsShow #overlayProjects{
+	visibility: visible;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
+}
+.projectsHide #overlayProjects{
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+}
+.projectsShow #Projects{
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.projectsHide #Projects{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.projectsSwitch #overlayProjects{
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+}
+.projectsSwitch #Projects{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+/*Resume*/
+#overlayResume{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	z-index: 60;
+	bottom: -100vh;
+}
+#resumeText{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	color: #F5986E;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+}
+.resumeShow #overlayResume{
+	visibility: visible;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
+}
+.resumeHide #overlayResume{
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+}
+.resumeShow #Resume{
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.resumeHide #Resume{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.resumeSwitch #overlayResume{
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+}
+.resumeSwitch #Resume{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
