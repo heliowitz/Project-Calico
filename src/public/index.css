@@ -162,30 +162,6 @@ body {
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
 }
-.aboutShow #About{
-	color: #F5986E;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.aboutHide #About{
-	color: #f25346;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.aboutSwitch #overlayAbout{
-	visibility: hidden;
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-
-	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
-}
-.aboutSwitch #About{
-	color: #d8d0d1;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
 
 /*Projects*/
 #overlayProjects{
@@ -226,30 +202,6 @@ body {
 
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
-}
-.projectsShow #Projects{
-	color: #F5986E;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.projectsHide #Projects{
-	color: #f25346;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.projectsSwitch #overlayProjects{
-	visibility: hidden;
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-
-	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
-}
-.projectsSwitch #Projects{
-	color: #d8d0d1;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
 }
 
 /*Resume*/
@@ -292,27 +244,52 @@ body {
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
 }
-.resumeShow #Resume{
-	color: #F5986E;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.resumeHide #Resume{
+
+/*HEADER COLORS*/
+.aboutDefault #About{
 	color: #f25346;
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.resumeSwitch #overlayResume{
-	visibility: hidden;
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-
-	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
+.aboutFocus #About{
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
 }
-.resumeSwitch #Resume{
+.aboutHidden #About{
 	color: #d8d0d1;
 	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+
+.projectsDefault #Projects{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
+}
+.projectsFocus #Projects{
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+.projectsHidden #Projects{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+
+.resumeDefault #Resume{
+	color: #f25346;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.resumeFocus #Resume{
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+.resumeHidden #Resume{
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
 }
