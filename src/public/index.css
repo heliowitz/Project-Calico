@@ -131,19 +131,6 @@ body {
 	z-index: 60;
 	bottom: -100vh;
 }
-#aboutText{
-	position: relative;
-	left: 50%;
-	top: 50%;
-	width: 150px;
-	height: 150px;
-	margin: -75px 0 0 -75px;
-	color: #F5986E;
-
-	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	font-weight: 700;
-}
 .aboutShow #overlayAbout{
 	visibility: visible;
 	-webkit-transform: translateY(-100%);

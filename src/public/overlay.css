@@ -1,0 +1,27 @@
+#aboutText{
+	width: 60vw;
+	min-width: 400px;
+	max-width: 900px;
+	height: 1000px;
+	margin: 150px auto 100px auto;
+}
+#aboutTitle{
+	color: #F5986E;
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 3px;
+	margin-bottom:50px;
+}
+#aboutBody{
+	color: #F5986E;
+	width: 30vw;
+	min-width: 400px;
+	max-width: 600px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 140%;
+	letter-spacing: 2px;
+	color: #d8d0d1;
+}
