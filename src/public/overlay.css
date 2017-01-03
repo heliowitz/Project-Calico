@@ -1,3 +1,4 @@
+/*ABOUT*/
 #aboutText{
 	width: 60vw;
 	min-width: 400px;
@@ -24,4 +25,88 @@
 	line-height: 140%;
 	letter-spacing: 2px;
 	color: #d8d0d1;
+}
+
+/*PROJECTS*/
+#projectsContainer{
+  	display: inline-block;
+	margin: 200px auto 100px auto;
+}
+.projectTile{
+	background-color: rgba(35,25,15, 0.5);
+	float: left;
+	box-sizing: border-box;
+	padding:10px;
+	background-clip: content-box;
+	z-index: 100;
+	display: table;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.projectTile:hover{
+	background-color: rgba(245,152,110, 0.5);
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+.projectTile:hover .projectTileText{
+	color: rgb(35,25,15);
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+.projectTileText{
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	color: rgb(245,152,110);
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*PROJECT TILES SCREEN SIZES*/
+@media(max-width:400px){
+	#projectsContainer{
+		width: 80vw;
+	}
+	.projectTile{
+		width: 80vw;
+		height: 80vw;
+	}
+}
+@media (min-width:401px) and (max-width:700px){
+	#projectsContainer{
+		width: 80vw;
+	}
+	.projectTile{
+		width: 40vw;
+		height: 40vw;
+	}
+}
+@media(min-width:701px) and (max-width:1000px){
+	#projectsContainer{
+		width: 75vw;
+	}
+	.projectTile{
+		width: 25vw;
+		height: 25vw;
+	}
+}
+@media(min-width:1001px){
+	#projectsContainer{
+		width: 70vw;
+	}
+	.projectTile{
+		width: 17.5vw;
+		height: 17.5vw;
+	}
+}
+
+/*ICONS*/
+.icon{
+	height: 30%;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
