@@ -1,0 +1,21 @@
+<div class="grid" data-masonry='{ "itemSelector": ".tile", "columnWidth": 420 , "isFitWidth": true}'>
+	<% data.forEach(function(proj) { %>
+	<div class="tile">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner" role="listbox">
+		    	<div class="item active">
+		        	<img class="tileImg" src="<%= proj.tileImg[0] %>">
+		      	</div>   
+
+		    <% for (var i = 1; i < proj.tileImg.length; i++) {%>
+		    	<div class="item">
+		        	<img class="tileImg" src="<%= proj.tileImg[i] %>">
+		      	</div>
+		    <%}%>
+			</div>
+		</div>	
+	</div>
+	<% }); %>
+</div>
