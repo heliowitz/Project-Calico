@@ -2,19 +2,22 @@
 	width: 400px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	background-color: green;
+	background-color: rgba(35,25,15,0.5);
 	overflow-y:hidden;
 }
 .tile:hover #myCarousel{
-	-webkit-transform: translateY(-30%);
-	-ms-transform: translateY(-30%);
-	transform: translateY(-30%);
+	-webkit-transform: translateY(-35%);
+	-ms-transform: translateY(-35%);
+	transform: translateY(-35%);
 
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
 }
 .grid{
 	margin: 100px auto 100px auto;
+}
+#myCarousel{
+	z-index: 60;
 }
 .projInfo{
 	position: absolute;
@@ -33,4 +36,23 @@
 
 	background-color: transparent;
 	display:none;
+}
+.projBlurbTitle{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	z-index: 59;
+	left: 20px;
+	bottom:40px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #F5986E;
+}
+.projBlurbType{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	z-index: 59;
+	left: 20px;
+	bottom:15px;
+	font-size: 15px;
+	color: #F5986E;
 }

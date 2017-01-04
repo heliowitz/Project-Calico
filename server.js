@@ -16,7 +16,6 @@ var projectTileData = [
 		],
 		projName:"Fitbit",
 		projType:"Desktop Client",
-		tileIcon:"",
 		tag:"fitbit"
 	},
 	{
@@ -27,7 +26,6 @@ var projectTileData = [
 		],
 		projName:"Schulich Dentistry",
 		projType:"Data Analysis Client",
-		tileIcon:"",
 		tag:"schulich"
 	},
 	{
@@ -38,7 +36,6 @@ var projectTileData = [
 		],
 		projName:"Graphic Designers",
 		projType:"Website",
-		tileIcon:"",
 		tag:"graphic"
 	},
 	{
@@ -49,7 +46,6 @@ var projectTileData = [
 		],
 		projName:"Movies DB",
 		projType:"MySQL Database Client",
-		tileIcon:"",
 		tag:"movies"
 	},
 	{
@@ -60,7 +56,6 @@ var projectTileData = [
 		],
 		projName:"TCP Packet Guaranteed",
 		projType:"Client / Server Program",
-		tileIcon:"",
 		tag:"tcp"
 	},
 	{
@@ -71,7 +66,6 @@ var projectTileData = [
 		],
 		projName:"Pacman AI",
 		projType:"Minimax Agent",
-		tileIcon:"",
 		tag:"pacman"
 	},
 	{
@@ -82,7 +76,6 @@ var projectTileData = [
 		],
 		projName:"Asteroids",
 		projType:"Java Game",
-		tileIcon:"",
 		tag:"asteroids"
 	},
 	{
@@ -93,7 +86,6 @@ var projectTileData = [
 		],
 		projName:"Outer Space",
 		projType:"Java Simulation",
-		tileIcon:"",
 		tag:"simulation"
 	},
 	{
@@ -104,8 +96,7 @@ var projectTileData = [
 		],
 		projName:"Personal Site",
 		projType:"Website",
-		tileIcon:"",
-		tag:""
+		tag:"website"
 	},
 	{
 		tileImg:[
@@ -115,8 +106,7 @@ var projectTileData = [
 		],
 		projName:"Lists",
 		projType:"Web App",
-		tileIcon:"",
-		tag:""
+		tag:"lists"
 	}
 ];
 
