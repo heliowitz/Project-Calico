@@ -16,7 +16,8 @@ var projectTileData = [
 		],
 		projName:"Fitbit",
 		projType:"Desktop Client",
-		tileIcon:""
+		tileIcon:"",
+		tag:"fitbit"
 	},
 	{
 		tileImg:[
@@ -26,7 +27,8 @@ var projectTileData = [
 		],
 		projName:"Schulich Dentistry",
 		projType:"Data Analysis Client",
-		tileIcon:""
+		tileIcon:"",
+		tag:"schulich"
 	},
 	{
 		tileImg:[
@@ -36,7 +38,8 @@ var projectTileData = [
 		],
 		projName:"Graphic Designers",
 		projType:"Website",
-		tileIcon:""
+		tileIcon:"",
+		tag:"graphic"
 	},
 	{
 		tileImg:[
@@ -46,7 +49,8 @@ var projectTileData = [
 		],
 		projName:"Movies DB",
 		projType:"MySQL Database Client",
-		tileIcon:""
+		tileIcon:"",
+		tag:"movies"
 	},
 	{
 		tileImg:[
@@ -56,7 +60,8 @@ var projectTileData = [
 		],
 		projName:"TCP Packet Guaranteed",
 		projType:"Client / Server Program",
-		tileIcon:""
+		tileIcon:"",
+		tag:"tcp"
 	},
 	{
 		tileImg:[
@@ -66,7 +71,8 @@ var projectTileData = [
 		],
 		projName:"Pacman AI",
 		projType:"Minimax Agent",
-		tileIcon:""
+		tileIcon:"",
+		tag:"pacman"
 	},
 	{
 		tileImg:[
@@ -76,7 +82,8 @@ var projectTileData = [
 		],
 		projName:"Asteroids",
 		projType:"Java Game",
-		tileIcon:""
+		tileIcon:"",
+		tag:"asteroids"
 	},
 	{
 		tileImg:[
@@ -86,7 +93,8 @@ var projectTileData = [
 		],
 		projName:"Outer Space",
 		projType:"Java Simulation",
-		tileIcon:""
+		tileIcon:"",
+		tag:"simulation"
 	},
 	{
 		tileImg:[
@@ -96,7 +104,8 @@ var projectTileData = [
 		],
 		projName:"Personal Site",
 		projType:"Website",
-		tileIcon:""
+		tileIcon:"",
+		tag:""
 	},
 	{
 		tileImg:[
@@ -104,9 +113,10 @@ var projectTileData = [
 			"./assets/projectImgs/test/test2.png",
 			"./assets/projectImgs/test/test3.png"
 		],
-		projName:"Personal Site",
-		projType:"Website",
-		tileIcon:""
+		projName:"Lists",
+		projType:"Web App",
+		tileIcon:"",
+		tag:""
 	}
 ];
 

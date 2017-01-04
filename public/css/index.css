@@ -159,6 +159,8 @@ body {
 	z-index: 60;
 	bottom: -100vh;
 
+	overflow-x:hidden;
+
 	text-align: center;
 }
 .projectsShow #overlayProjects{

@@ -1,7 +1,8 @@
-<div class="grid" data-masonry='{ "itemSelector": ".tile", "columnWidth": 420 , "isFitWidth": true}'>
+<!-- TILES -->
+<div class="grid" id ="projectGrid" data-masonry='{ "itemSelector": ".tile", "columnWidth": 420 , "isFitWidth": true}'>
 	<% data.forEach(function(proj) { %>
-	<div class="tile">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
+	<div class="tile" onclick="showInfo('<%= proj.tag %>')">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="11000">
 
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner" role="listbox">
@@ -19,3 +20,10 @@
 	</div>
 	<% }); %>
 </div>
+
+<!-- INFO -->
+<% data.forEach(function(proj) {%>
+<div class="projInfo" id="<%= proj.tag %>" onclick="hideInfo('<%= proj.tag %>')">
+	<%= proj.projName %>
+</div>
+<% }); %>

@@ -1,10 +1,10 @@
-// var grid = document.querySelector('.grid');
-// var msnry = new Masonry( grid, {
-//   // options...
-//   itemSelector: '.grid-item',
-//   columnWidth: 300
-// });
-
-// $('.carousel').carousel({
-//   interval: 1000 * 15
-// });
+function showInfo(proj){
+	var id = "#"+proj;
+	$('#projectGrid').fadeOut(200);
+	$(id).fadeIn(200);
+}
+function hideInfo(proj){
+	var id = "#"+proj;
+	$('#projectGrid').fadeIn(200);
+	$(id).fadeOut(200);
+}

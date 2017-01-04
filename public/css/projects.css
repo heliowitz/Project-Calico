@@ -2,9 +2,35 @@
 	width: 400px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	background-color: green;
+	overflow-y:hidden;
 }
-.tileImg{
+.tile:hover #myCarousel{
+	-webkit-transform: translateY(-30%);
+	-ms-transform: translateY(-30%);
+	transform: translateY(-30%);
+
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
 }
 .grid{
 	margin: 100px auto 100px auto;
+}
+.projInfo{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	z-index: 61;
+	top:0px;
+	left: 0px;
+	padding-top: 100px;
+
+	color: #F5986E;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+
+	background-color: transparent;
+	display:none;
 }
