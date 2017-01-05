@@ -10,9 +10,9 @@ app.use(express.static(path.join(__dirname, '/public')));
 var projectTileData = [
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/Fitbit/1.png",
+			"./assets/projectImgs/Fitbit/2.png",
+			"./assets/projectImgs/Fitbit/3.png"
 		],
 		projName:"Fitbit",
 		projType:"Desktop Client",
@@ -20,9 +20,9 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/Schulich/1.png",
+			"./assets/projectImgs/Schulich/2.png",
+			"./assets/projectImgs/Schulich/3.png"
 		],
 		projName:"Schulich Dentistry",
 		projType:"Data Analysis Client",
@@ -30,9 +30,9 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/GraphicDesigners/1.png",
+			"./assets/projectImgs/GraphicDesigners/2.png",
+			"./assets/projectImgs/GraphicDesigners/3.png"
 		],
 		projName:"Graphic Designers",
 		projType:"Website",
@@ -40,9 +40,9 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/Movies/1.png",
+			"./assets/projectImgs/Movies/2.png",
+			"./assets/projectImgs/Movies/3.png"
 		],
 		projName:"Movies DB",
 		projType:"MySQL Database Client",
@@ -50,9 +50,8 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/TCP/1.png",
+			"./assets/projectImgs/TCP/2.png"
 		],
 		projName:"TCP Packet Guaranteed",
 		projType:"Client / Server Program",
@@ -60,9 +59,7 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/Pacman/1.png"
 		],
 		projName:"Pacman AI",
 		projType:"Minimax Agent",
@@ -70,9 +67,9 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/Asteroids/1.png",
+			"./assets/projectImgs/Asteroids/2.png",
+			"./assets/projectImgs/Asteroids/3.png"
 		],
 		projName:"Asteroids",
 		projType:"Java Game",
@@ -80,9 +77,9 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/OuterSpace/1.png",
+			"./assets/projectImgs/OuterSpace/2.png",
+			"./assets/projectImgs/OuterSpace/3.png"
 		],
 		projName:"Outer Space",
 		projType:"Java Simulation",
@@ -90,9 +87,9 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/PersonalSite/1.png",
+			"./assets/projectImgs/PersonalSite/2.png",
+			"./assets/projectImgs/PersonalSite/3.png"
 		],
 		projName:"Personal Site",
 		projType:"Website",
@@ -100,9 +97,7 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/test/test1.png",
-			"./assets/projectImgs/test/test2.png",
-			"./assets/projectImgs/test/test3.png"
+			"./assets/projectImgs/Lists/1.png"
 		],
 		projName:"Lists",
 		projType:"Web App",

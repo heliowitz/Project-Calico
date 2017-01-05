@@ -1,3 +1,12 @@
+
+$(window).on('load', function(){
+	$('.grid').masonry({
+		itemSelector: '.tile', 
+		columnWidth: 420, 
+		isFitWidth: true
+	});
+});
+
 function showInfo(proj){
 	var id = "#"+proj;
 	$('#projectGrid').fadeOut(200);

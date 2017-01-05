@@ -6,9 +6,9 @@
 	overflow-y:hidden;
 }
 .tile:hover #myCarousel{
-	-webkit-transform: translateY(-35%);
-	-ms-transform: translateY(-35%);
-	transform: translateY(-35%);
+	-webkit-transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+	transform: translateY(-100px);
 
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
