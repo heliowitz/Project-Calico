@@ -116,11 +116,6 @@ body {
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.overlayHide #Resume{
-	color: #f25346;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;	
-}
 
 /*About*/
 #overlayAbout{
@@ -182,47 +177,6 @@ body {
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
 }
 
-/*Resume*/
-#overlayResume{
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
-	overflow: auto;
-	z-index: 60;
-	bottom: -100vh;
-}
-#resumeText{
-	position: relative;
-	left: 50%;
-	top: 50%;
-	width: 150px;
-	height: 150px;
-	margin: -75px 0 0 -75px;
-	color: #F5986E;
-
-	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	font-weight: 700;
-}
-.resumeShow #overlayResume{
-	visibility: visible;
-	-webkit-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-
-	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
-}
-.resumeHide #overlayResume{
-	visibility: hidden;
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-
-	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
-}
-
 /*HEADER COLORS*/
 .aboutDefault #About{
 	color: #f25346;
@@ -251,22 +205,6 @@ body {
 	transition: all 0.3s ease-out;	
 }
 .projectsHidden #Projects{
-	color: #d8d0d1;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;	
-}
-
-.resumeDefault #Resume{
-	color: #f25346;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.resumeFocus #Resume{
-	color: #F5986E;
-	-webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;	
-}
-.resumeHidden #Resume{
 	color: #d8d0d1;
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;	
