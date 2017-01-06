@@ -16,7 +16,19 @@ var projectTileData = [
 		],
 		projName:"Fitbit",
 		projType:"Desktop Client",
-		tag:"fitbit"
+		tag:"fitbit",
+		github:"",
+		link:"https://www.youtube.com/watch?v=xBEWqx16H2U&t=40s",
+		stack:"Java, Swing",
+		about:[
+			"Developed a desktop client for Fitbit users in the Western U Computer Science Department. The client uses Fitbit API to display data, set goals, track progress, and earn trophies. ",
+			"Worked with Fitbit customers to gather requirements, designed mockups, and wrote unit and integration tests.",
+			"Oversaw aspects of UI design and implementation, and developed key aspects of program logic.",
+			"Was chosen by the faculty judges as the best client built. "
+		],
+		notes:[
+			"One of the first times not simply working in a team environment, but working closely with a series of clients. Learned to develop beyond one’s own whims, but rather to fulfil a need."
+		]
 	},
 	{
 		tileImg:[
@@ -26,7 +38,19 @@ var projectTileData = [
 		],
 		projName:"Schulich Dentistry",
 		projType:"Data Analysis Client",
-		tag:"schulich"
+		tag:"schulich",
+		github:"https://github.com/heliowitz/Schulich-Dentistry",
+		link:"",
+		stack:"C++, QT",
+		about:[
+			"Built upon an Excel desktop client for the Schulich School of Dentistry to analyze and present Excel data.",
+			"Worked directly with clients (Schulich Dentistry Faculty) to determine requirements and use cases.",
+			"Oversaw a complete UI overhaul, minimizing whitespace, and implementing a tabbing system for multiple data files. "
+		],
+		notes:[
+			"Team had a big emphasis on code design: most of the legwork was done in ensuring that legacy code was refactored to be more cohesive, with reduced coupling. ",
+			"Also restructured elements of the program to ensure greater reusability and modularity, making it easier for future development. "
+		]
 	},
 	{
 		tileImg:[
@@ -36,7 +60,17 @@ var projectTileData = [
 		],
 		projName:"Graphic Designers",
 		projType:"Website",
-		tag:"graphic"
+		tag:"graphic",
+		github:"https://github.com/heliowitz/Graphic-Designers",
+		link:"http://publish.uwo.ca/~yding96/index.html",
+		stack:"HTML, CSS, JS",
+		about:[
+			"Built a website to showcase the styles and impacts of famous graphic designers.",
+			"Was selected as one of the best websites created in the class, and is currently used as a model of success for 2nd year web students. "
+		],
+		notes:[
+			"A good way to explore how designers worked, and took their lessons to heart in future project designs."
+		]
 	},
 	{
 		tileImg:[
@@ -46,7 +80,19 @@ var projectTileData = [
 		],
 		projName:"Movies DB",
 		projType:"MySQL Database Client",
-		tag:"movies"
+		tag:"movies",
+		github:"https://github.com/heliowitz/Movies-DB",
+		link:"",
+		stack:"MySQL, Flask, Python, HTML, Bootstrap, JS",
+		about:[
+			"Developed an IMDb-style database client that allows different users (staff, customers, etc.) to access or manipulate certain aspects of the data.",
+			"Designed and implemented a modern UI using Bootstrap and JQuery.",
+			"Used a MySQL Community Server and Flask to implement backend functionality."
+		],
+		notes:[
+			"Used Vagrant to ensure that all code worked on an isolated linux environment.",
+			"Practiced principles of relational database design and security (parameterized queries, etc.)."
+		]
 	},
 	{
 		tileImg:[
@@ -55,7 +101,19 @@ var projectTileData = [
 		],
 		projName:"TCP Packet Guaranteed",
 		projType:"Client / Server Program",
-		tag:"tcp"
+		tag:"tcp",
+		github:"https://github.com/heliowitz/TCP-Packet-Guaranteed",
+		link:"",
+		stack:"Python Wireshark",
+		about:[
+			"Implemented a TCP transport-layer protocol that ensures reliable data transfer across client / server applications.",
+			"Uses acks and timeout intervals to handle cases of dropped packets and delayed packets.",
+			"Used Wireshark to monitor the client/server connection, and Ubuntu to artificially drop or delay packets 30% of the time. "
+		],
+		notes:[
+			"Learned critical aspects of the network OSI model, their importance, and how they work together.",
+			"Eager to apply this knowledge to future network application projects."
+		]
 	},
 	{
 		tileImg:[
@@ -63,7 +121,17 @@ var projectTileData = [
 		],
 		projName:"Pacman AI",
 		projType:"Minimax Agent",
-		tag:"pacman"
+		tag:"pacman",
+		github:"https://github.com/heliowitz/Pacman-AI",
+		link:"",
+		stack:"Python",
+		about:[
+			"Implemented a Pacman AI agent using minimax decision-making, that successfully beats the game 100% of the time.",
+			"Created custom heuristics with alpha-beta pruning to allow for deeper minimax search depth without sacrificing time complexity."
+		],
+		notes:[
+			"Eager to edit this program to experiment with certain learning agents rather than simple utility or goal-based agents (q-learning, etc.)."
+		]
 	},
 	{
 		tileImg:[
@@ -73,7 +141,17 @@ var projectTileData = [
 		],
 		projName:"Asteroids",
 		projType:"Java Game",
-		tag:"asteroids"
+		tag:"asteroids",
+		github:"https://github.com/heliowitz/Asteroids",
+		link:"",
+		stack:"Java, Greenfoot, Illustrator",
+		about:[
+			"Developed a version of the classic arcade game Asteroids, with additional implemented features (power-ups, enemies, shields, etc.).",
+			"Created original sprites and graphics using Adobe Illustrator."
+		],
+		notes:[
+			"An introduction to game-design. Was a great personal outlet for creativity."
+		]
 	},
 	{
 		tileImg:[
@@ -83,7 +161,17 @@ var projectTileData = [
 		],
 		projName:"Outer Space",
 		projType:"Java Simulation",
-		tag:"simulation"
+		tag:"simulation",
+		github:"https://github.com/heliowitz/Outer-Space",
+		link:"",
+		stack:"Java, Greenfoot",
+		about:[
+			"Developed a planetary program that tracked and simulated planets of development and space. Used a physics engine to track orbiting and gravitational pull between objects."
+		],
+		notes:[
+			"The first time working in a group taught me how to build projects in a team environment.",
+			"Led a team of 4 from ideation to final execution, delegating tasks and modules to different members of the team."
+		]
 	},
 	{
 		tileImg:[
@@ -93,7 +181,20 @@ var projectTileData = [
 		],
 		projName:"Personal Site",
 		projType:"Website",
-		tag:"website"
+		tag:"website",
+		github:"https://github.com/heliowitz/Personal-Site-Old",
+		link:"",
+		stack:"HTML (EJS), CSS (Bootstrap), JS",
+		about:[
+			"Developed a personal website to showcase personal projects.",
+			"Significantly improved from last year’s implementation."
+		],
+		notes:[
+			"Switched from plain static HTML to Node with Express and EJS templating.",
+			"Focused much more on optimization of CSS and JS delivery.",
+			"Deploying a Node application led to exploring various tools and concepts in the world of devops.",
+			"Looking to refactor into classic MVC using Angular or Virtual DOM using React as a next step."
+		]
 	},
 	{
 		tileImg:[
@@ -101,7 +202,18 @@ var projectTileData = [
 		],
 		projName:"Lists",
 		projType:"Web App",
-		tag:"lists"
+		tag:"lists",
+		github:"https://github.com/heliowitz/Project-Apollo",
+		link:"",
+		stack:"MEAN Stack, Passport",
+		about:[
+			"In process of developing a lists productivity app using the MEAN stack.",
+			"Implemented account signup and login using Google accounts through Passport.",
+			"Designed and implemented a non relational database schema for storing accounts, lists, and items."
+		],
+		notes:[
+			"Looking to eventually incorporate aspects of agile methodologies (story points, standups, retrospectives, velocity, etc.) so that users can track their individual productivity the same way an agile team does."
+		]
 	}
 ];
 

@@ -30,7 +30,37 @@
 
 <!-- INFO -->
 <% data.forEach(function(proj) {%>
-<div class="projInfo" id="<%= proj.tag %>" onclick="hideInfo('<%= proj.tag %>')">
-	<%= proj.projName %>
+<div class="projInfo" id="<%= proj.tag %>">
+	
+	<div class="projButtons">
+	<div class="projName"><%= proj.projName %></div>
+	<% if (proj.github) { %>
+		<a href="<%=proj.github%>" class="btn btn-info" role="button" style="margin-bottom:5px" target="_blank">Github</a>
+	<% } %>
+	<% if (proj.link) { %>
+		<a href="<%=proj.link%>" class="btn btn-info" role="button" style="margin-bottom:5px" target="_blank">Link</a>
+	<% } %>
+	</div>
+
+	<div class="cancelButton" onclick="hideInfo('<%= proj.tag %>')">&#10006;</div>
+	<div class="projByline"><%= proj.projType %></div>
+	<div class="projByline"><%= proj.stack %></div>
+
+	<div class="projAbout">
+		<div class="projHeader">About</div>
+		<ul class="projList">
+		<% proj.about.forEach(function(pointAbout) {%>
+			<li><%= pointAbout %></li>
+		<% }); %>
+		</ul>
+	</div>
+	<div class="projNotes">
+		<div class="projHeader">Notes</div>
+		<ul class="projList">
+		<% proj.notes.forEach(function(pointNotes) {%>
+			<li><%= pointNotes %></li>
+		<% }); %>
+		</ul>
+	</div>
 </div>
 <% }); %>

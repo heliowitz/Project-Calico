@@ -65,6 +65,14 @@ body {
 	z-index: 70;
 	cursor: pointer;
 }
+.headerBarRightText:hover{
+	text-decoration:none;
+	color: #f25346;
+}
+.headerBarRightText:visited{
+	text-decoration:none;
+	color: #f25346;
+}
 
 /*Overlay*/
 #overlay{

@@ -14,6 +14,12 @@ function showInfo(proj){
 }
 function hideInfo(proj){
 	var id = "#"+proj;
-	$('#projectGrid').fadeIn(200);
+	$('#projectGrid').fadeIn(200, function(){
+		$('.grid').masonry({
+			itemSelector: '.tile', 
+			columnWidth: 420, 
+			isFitWidth: true
+		});
+	});
 	$(id).fadeOut(200);
 }
