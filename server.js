@@ -12,7 +12,8 @@ var projectTileData = [
 		tileImg:[
 			"./assets/projectImgs/Fitbit/1.png",
 			"./assets/projectImgs/Fitbit/2.png",
-			"./assets/projectImgs/Fitbit/3.png"
+			"./assets/projectImgs/Fitbit/3.png",
+			"./assets/projectImgs/Fitbit/4.png"
 		],
 		projName:"Fitbit",
 		projType:"Desktop Client",
@@ -34,7 +35,8 @@ var projectTileData = [
 		tileImg:[
 			"./assets/projectImgs/Schulich/1.png",
 			"./assets/projectImgs/Schulich/2.png",
-			"./assets/projectImgs/Schulich/3.png"
+			"./assets/projectImgs/Schulich/3.png",
+			"./assets/projectImgs/Schulich/4.png"
 		],
 		projName:"Schulich Dentistry",
 		projType:"Data Analysis Client",
@@ -56,7 +58,8 @@ var projectTileData = [
 		tileImg:[
 			"./assets/projectImgs/GraphicDesigners/1.png",
 			"./assets/projectImgs/GraphicDesigners/2.png",
-			"./assets/projectImgs/GraphicDesigners/3.png"
+			"./assets/projectImgs/GraphicDesigners/3.png",
+			"./assets/projectImgs/GraphicDesigners/4.png"
 		],
 		projName:"Graphic Designers",
 		projType:"Website",
@@ -76,7 +79,9 @@ var projectTileData = [
 		tileImg:[
 			"./assets/projectImgs/Movies/1.png",
 			"./assets/projectImgs/Movies/2.png",
-			"./assets/projectImgs/Movies/3.png"
+			"./assets/projectImgs/Movies/3.png",
+			"./assets/projectImgs/Movies/4.png",
+			"./assets/projectImgs/Movies/5.png"
 		],
 		projName:"Movies DB",
 		projType:"MySQL Database Client",
@@ -96,28 +101,8 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/TCP/1.png",
-			"./assets/projectImgs/TCP/2.png"
-		],
-		projName:"TCP Packet Guaranteed",
-		projType:"Client / Server Program",
-		tag:"tcp",
-		github:"https://github.com/heliowitz/TCP-Packet-Guaranteed",
-		link:"",
-		stack:"Python Wireshark",
-		about:[
-			"Implemented a TCP transport-layer protocol that ensures reliable data transfer across client / server applications.",
-			"Uses acks and timeout intervals to handle cases of dropped packets and delayed packets.",
-			"Used Wireshark to monitor the client/server connection, and Ubuntu to artificially drop or delay packets 30% of the time. "
-		],
-		notes:[
-			"Learned critical aspects of the network OSI model, their importance, and how they work together.",
-			"Eager to apply this knowledge to future network application projects."
-		]
-	},
-	{
-		tileImg:[
-			"./assets/projectImgs/Pacman/1.png"
+			"./assets/projectImgs/Pacman/1.png",
+			"./assets/projectImgs/Pacman/2.png"
 		],
 		projName:"Pacman AI",
 		projType:"Minimax Agent",
@@ -157,7 +142,8 @@ var projectTileData = [
 		tileImg:[
 			"./assets/projectImgs/OuterSpace/1.png",
 			"./assets/projectImgs/OuterSpace/2.png",
-			"./assets/projectImgs/OuterSpace/3.png"
+			"./assets/projectImgs/OuterSpace/3.png",
+			"./assets/projectImgs/OuterSpace/4.png"
 		],
 		projName:"Outer Space",
 		projType:"Java Simulation",
@@ -177,7 +163,8 @@ var projectTileData = [
 		tileImg:[
 			"./assets/projectImgs/PersonalSite/1.png",
 			"./assets/projectImgs/PersonalSite/2.png",
-			"./assets/projectImgs/PersonalSite/3.png"
+			"./assets/projectImgs/PersonalSite/3.png",
+			"./assets/projectImgs/PersonalSite/4.png"
 		],
 		projName:"Personal Site",
 		projType:"Website",
@@ -194,25 +181,6 @@ var projectTileData = [
 			"Focused much more on optimization of CSS and JS delivery.",
 			"Deploying a Node application led to exploring various tools and concepts in the world of devops.",
 			"Looking to refactor into classic MVC using Angular or Virtual DOM using React as a next step."
-		]
-	},
-	{
-		tileImg:[
-			"./assets/projectImgs/Lists/1.png"
-		],
-		projName:"Lists",
-		projType:"Web App",
-		tag:"lists",
-		github:"https://github.com/heliowitz/Project-Apollo",
-		link:"",
-		stack:"MEAN Stack, Passport",
-		about:[
-			"In process of developing a lists productivity app using the MEAN stack.",
-			"Implemented account signup and login using Google accounts through Passport.",
-			"Designed and implemented a non relational database schema for storing accounts, lists, and items."
-		],
-		notes:[
-			"Looking to eventually incorporate aspects of agile methodologies (story points, standups, retrospectives, velocity, etc.) so that users can track their individual productivity the same way an agile team does."
 		]
 	}
 ];
