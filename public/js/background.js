@@ -9,61 +9,25 @@ var Colors = {
 window.addEventListener('load', init, false);
 var startButton = document.getElementById( 'startButtonId' );
 
-
-
 function init() {
-	
-	// set up the scene, the camera and the renderer
 	createScene();
-
-	// add the lights
 	createLights();
-
-	// add the objects
 	createSea();
 	createSky();
-
-	// start a loop that will update the objects' positions 
-	// and render the scene on each frame
 	runAnim=true;
 	isPlay=true;
 	loop();
 }
-// // Start Button
-// startButton.onclick = function StartAnimation() {
-
-// // Start and Pause 
-// if (!runAnim) { 
-// startButton.innerHTML = 'Pause';
-// runAnim = true;
-// isPlay = true;
-// loop();
-// } else {
-//       startButton.innerHTML = 'Restart';
-//       runAnim = false;
-//       isPlay = false;
-//       // stop();
-// }
-// }
 var scene,
 		camera, fieldOfView, aspectRatio, nearPlane, farPlane, HEIGHT, WIDTH,
 		renderer, container;
 
 function createScene() {
-	// Get the width and the height of the screen,
-	// use them to set up the aspect ratio of the camera 
-	// and the size of the renderer.
 	HEIGHT = window.innerHeight;
 	WIDTH = window.innerWidth;
-
-	// Create the scene
 	scene = new THREE.Scene();
 
-	// Add a fog effect to the scene; same color as the
-	// background color used in the style sheet
 	scene.fog = new THREE.Fog(0xf7d9aa, 100, 950);
-	
-	// Create the camera
 	aspectRatio = WIDTH / HEIGHT;
 	fieldOfView = 60;
 	nearPlane = 1;
@@ -156,43 +120,6 @@ function createLights() {
 }
 // First let's define a Sea object :
 Sea = function(){
-	// var geom = new THREE.CylinderGeometry(600,600,800,40,10);
-	// geom.applyMatrix(new THREE.Matrix4().makeRotationX(-Math.PI/2));
-
-	// // important: by merging vertices we ensure the continuity of the waves
-	// geom.mergeVertices();
-
-	// // get the vertices
-	// var l = geom.vertices.length;
-
-	// // create an array to store new data associated to each vertex
-	// this.waves = [];
-
-	// for (var i=0; i<l; i++){
-	// 	// get each vertex
-	// 	var v = geom.vertices[i];
-
-	// 	// store some data associated to it
-	// 	this.waves.push({y:v.y,
-	// 									 x:v.x,
-	// 									 z:v.z,
-	// 									 // a random angle
-	// 									 ang:Math.random()*Math.PI*2,
-	// 									 // a random distance
-	// 									 amp:5 + Math.random()*15,
-	// 									 // a random speed between 0.016 and 0.048 radians / frame
-	// 									 speed:0.016 + Math.random()*0.032
-	// 									});
-	// };
-	// var mat = new THREE.MeshPhongMaterial({
-	// 	color:Colors.blue,
-	// 	transparent:true,
-	// 	opacity:.8,
-	// 	shading:THREE.FlatShading,
-	// });
-
-	// this.mesh = new THREE.Mesh(geom, mat);
-	// this.mesh.receiveShadow = true;
 	var geom = new THREE.SphereGeometry(600,35,35);
 	geom.applyMatrix(new THREE.Matrix4().makeRotationX(-Math.PI/2));
 	var color = new THREE.Color("rgb(40,96,46)");
@@ -206,11 +133,7 @@ Sea = function(){
 	this.mesh.receiveShadow = true;
 }
 
-
-// Instantiate the sea and add it to the scene:
-
 var sea;
-
 function createSea(){
 	sea = new Sea();
 
