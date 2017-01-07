@@ -30,7 +30,7 @@ var projectTileData = [
 		notes:[
 			"One of the first times not simply working in a team environment, but working closely with a series of clients. Learned to develop beyond one’s own whims, but rather to fulfil a need."
 		],
-		timeout: 10000
+		timeout: 7000
 	},
 	{
 		tileImg:[
@@ -54,7 +54,7 @@ var projectTileData = [
 			"Team had a big emphasis on code design: most of the legwork was done in ensuring that legacy code was refactored to be more cohesive, with reduced coupling. ",
 			"Also restructured elements of the program to ensure greater reusability and modularity, making it easier for future development. "
 		],
-		timeout: 9000
+		timeout: 11000
 	},
 	{
 		tileImg:[
@@ -105,26 +105,6 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
-			"./assets/projectImgs/Pacman/1.png",
-			"./assets/projectImgs/Pacman/2.png"
-		],
-		projName:"Pacman AI",
-		projType:"Minimax Agent",
-		tag:"pacman",
-		github:"https://github.com/heliowitz/Pacman-AI",
-		link:"",
-		stack:"Python",
-		about:[
-			"Implemented a Pacman AI agent using minimax decision-making, that successfully beats the game 100% of the time.",
-			"Created custom heuristics with alpha-beta pruning to allow for deeper minimax search depth without sacrificing time complexity."
-		],
-		notes:[
-			"Eager to edit this program to experiment with certain learning agents rather than simple utility or goal-based agents (q-learning, etc.)."
-		],
-		timeout: 11000
-	},
-	{
-		tileImg:[
 			"./assets/projectImgs/Asteroids/1.png",
 			"./assets/projectImgs/Asteroids/2.png",
 			"./assets/projectImgs/Asteroids/3.png"
@@ -142,7 +122,27 @@ var projectTileData = [
 		notes:[
 			"An introduction to game-design. Was a great personal outlet for creativity."
 		],
-		timeout: 12000
+		timeout: 10000
+	},
+	{
+		tileImg:[
+			"./assets/projectImgs/Pacman/1.png",
+			"./assets/projectImgs/Pacman/2.png"
+		],
+		projName:"Pacman AI",
+		projType:"Minimax Agent",
+		tag:"pacman",
+		github:"https://github.com/heliowitz/Pacman-AI",
+		link:"",
+		stack:"Python",
+		about:[
+			"Implemented a Pacman AI agent using minimax decision-making, that successfully beats the game 100% of the time.",
+			"Created custom heuristics with alpha-beta pruning to allow for deeper minimax search depth without sacrificing time complexity."
+		],
+		notes:[
+			"Eager to edit this program to experiment with certain learning agents rather than simple utility or goal-based agents (q-learning, etc.)."
+		],
+		timeout: 9000
 	},
 	{
 		tileImg:[
@@ -164,7 +164,7 @@ var projectTileData = [
 			"The first time working in a group taught me how to build projects in a team environment.",
 			"Led a team of 4 from ideation to final execution, delegating tasks and modules to different members of the team."
 		],
-		timeout: 10000
+		timeout: 13000
 	},
 	{
 		tileImg:[
@@ -189,7 +189,7 @@ var projectTileData = [
 			"Deploying a Node application led to exploring various tools and concepts in the world of devops.",
 			"Looking to refactor into classic MVC using Angular or Virtual DOM using React as a next step."
 		],
-		timeout: 12000
+		timeout: 6000
 	}
 ];
 
