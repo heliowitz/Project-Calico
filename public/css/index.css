@@ -400,7 +400,7 @@ body {
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	position:absolute;
-	right: 20%;
+	right: 15%;
 	top: 100px;
 }
 .cancelButton:hover{
