@@ -98,9 +98,6 @@
 
 	-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-
-/*	-webkit-transition: all 0.3s 0.3s ease-out;
-	transition: all 0.3s 0.3s ease-out;*/
 }
 .loaded #loader-wrapper .loader-section.section-right{
 	-webkit-transform: translateX(100%);
@@ -109,9 +106,6 @@
 
 	-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-
-/*	-webkit-transition: all 0.3s 0.3s ease-out;
-	transition: all 0.3s 0.3s ease-out;*/
 }
 .loaded #loader{
 	opacity: 0;

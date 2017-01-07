@@ -5,22 +5,21 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.5",
     "express": "^4.14.0",
-    "http-server": "^0.9.0",
     "masonry-layout": "^4.1.1"
   },
-  "engines":{
-    "node":"4.4.7",
-    "npm":"3.10.3"
+  "engines": {
+    "node": "4.4.7",
+    "npm": "3.10.3"
   },
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/heliowitz/Project-Calico.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heliowitz/Project-Calico.git"
   }
 }
