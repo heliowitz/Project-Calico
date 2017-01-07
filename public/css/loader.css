@@ -89,7 +89,6 @@
 #loader-wrapper .loader-section.section-right{
 	right: 0;
 }
-
 /*LOADER LOADED*/
 .loaded #loader-wrapper .loader-section.section-left{
 	-webkit-transform: translateX(-100%);

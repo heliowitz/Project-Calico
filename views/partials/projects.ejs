@@ -2,7 +2,7 @@
 <div class="grid" id ="projectGrid">
 	<% data.forEach(function(proj) { %>
 	<div class="tile" onclick="showInfo('<%= proj.tag %>')">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="11000">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="<%= proj.timeout %>">
 
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner" role="listbox">

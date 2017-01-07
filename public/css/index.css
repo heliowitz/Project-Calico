@@ -23,7 +23,6 @@ body {
 	text-align: center;
 	z-index: 50;
 }
-
 /*Header*/
 #headerBarContainer{
 	font-family: 'Roboto', sans-serif;
@@ -73,7 +72,6 @@ body {
 	text-decoration:none;
 	color: #f25346;
 }
-
 /*Overlay*/
 #overlay{
 	position: absolute;
@@ -124,7 +122,6 @@ body {
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-
 /*About*/
 #overlayAbout{
 	position: absolute;
@@ -152,7 +149,6 @@ body {
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
 }
-
 /*Projects*/
 #overlayProjects{
 	position: absolute;
@@ -184,7 +180,6 @@ body {
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);		
 }
-
 /*HEADER COLORS*/
 .aboutDefault #About{
 	color: #f25346;

@@ -29,7 +29,8 @@ var projectTileData = [
 		],
 		notes:[
 			"One of the first times not simply working in a team environment, but working closely with a series of clients. Learned to develop beyond one’s own whims, but rather to fulfil a need."
-		]
+		],
+		timeout: 10000
 	},
 	{
 		tileImg:[
@@ -52,7 +53,8 @@ var projectTileData = [
 		notes:[
 			"Team had a big emphasis on code design: most of the legwork was done in ensuring that legacy code was refactored to be more cohesive, with reduced coupling. ",
 			"Also restructured elements of the program to ensure greater reusability and modularity, making it easier for future development. "
-		]
+		],
+		timeout: 9000
 	},
 	{
 		tileImg:[
@@ -73,7 +75,8 @@ var projectTileData = [
 		],
 		notes:[
 			"A good way to explore how designers worked, and took their lessons to heart in future project designs."
-		]
+		],
+		timeout: 12000
 	},
 	{
 		tileImg:[
@@ -97,7 +100,8 @@ var projectTileData = [
 		notes:[
 			"Used Vagrant to ensure that all code worked on an isolated linux environment.",
 			"Practiced principles of relational database design and security (parameterized queries, etc.)."
-		]
+		],
+		timeout: 8000
 	},
 	{
 		tileImg:[
@@ -116,7 +120,8 @@ var projectTileData = [
 		],
 		notes:[
 			"Eager to edit this program to experiment with certain learning agents rather than simple utility or goal-based agents (q-learning, etc.)."
-		]
+		],
+		timeout: 11000
 	},
 	{
 		tileImg:[
@@ -136,7 +141,8 @@ var projectTileData = [
 		],
 		notes:[
 			"An introduction to game-design. Was a great personal outlet for creativity."
-		]
+		],
+		timeout: 12000
 	},
 	{
 		tileImg:[
@@ -157,7 +163,8 @@ var projectTileData = [
 		notes:[
 			"The first time working in a group taught me how to build projects in a team environment.",
 			"Led a team of 4 from ideation to final execution, delegating tasks and modules to different members of the team."
-		]
+		],
+		timeout: 10000
 	},
 	{
 		tileImg:[
@@ -181,7 +188,8 @@ var projectTileData = [
 			"Focused much more on optimization of CSS and JS delivery.",
 			"Deploying a Node application led to exploring various tools and concepts in the world of devops.",
 			"Looking to refactor into classic MVC using Angular or Virtual DOM using React as a next step."
-		]
+		],
+		timeout: 12000
 	}
 ];
 
