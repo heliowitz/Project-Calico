@@ -253,6 +253,19 @@ body {
 	line-height: 140%;
 	color: #d8d0d1;
 }
+#aboutLink{
+	text-decoration: none;
+	font-weight: 700;
+	color: #d8d0d1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+}
+#aboutLink:hover {
+	color: #F5986E;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;	
+	text-decoration:none;
+}
 /*PROJECTS*/
 #projectsContainer{
   	display: inline-block;
