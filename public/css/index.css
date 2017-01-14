@@ -22,10 +22,21 @@ body {
 	width: 100%;
 	text-align: center;
 	z-index: 50;
+	padding: 0px 20px 0px 20px;
+}
+#codedWith{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #f25346;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px 0px 20px 20px;
 }
 /*Header*/
 #headerBarContainer{
 	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	font-size: 13px;
 	position: absolute;
 	height: 50px;
@@ -213,7 +224,7 @@ body {
 }
 
 .aboutTitleLine{
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 /*OVERLAY.CSS*/
@@ -240,7 +251,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 140%;
-	letter-spacing: 2px;
 	color: #d8d0d1;
 }
 /*PROJECTS*/
@@ -343,9 +353,9 @@ body {
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
 }
 .tile:hover #myCarousel{
-	-webkit-transform: translateY(-100px);
-	-ms-transform: translateY(-100px);
-	transform: translateY(-100px);
+	-webkit-transform: translateY(-125px);
+	-ms-transform: translateY(-125px);
+	transform: translateY(-125px);
 
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);	
@@ -380,12 +390,21 @@ body {
 	font-family: 'Roboto', sans-serif;
 	z-index: 59;
 	left: 20px;
-	bottom:40px;
-	font-size: 20px;
+	bottom:65px;
+	font-size: 25px;
 	font-weight: 700;
 	color: #F5986E;
 }
 .projBlurbType{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	z-index: 59;
+	left: 20px;
+	bottom:35px;
+	font-size: 15px;
+	color: #F5986E;
+}
+.projBlurbStack{
 	position: absolute;
 	font-family: 'Roboto', sans-serif;
 	z-index: 59;
