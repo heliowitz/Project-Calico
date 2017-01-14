@@ -13,14 +13,13 @@ body {
 }
 #nameTitle{
 	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	letter-spacing: 10px;
+	font-size: 70px;
+	letter-spacing: 3px;
 	color: #f25346;
 	font-weight: 700;
 	position: absolute;
-	top:50vh;
-	left:50%;
-	margin-left:-165px;
+	top:45vh;
+	width: 100%;
 	text-align: center;
 	z-index: 50;
 }
