@@ -10,6 +10,27 @@ app.use(express.static(path.join(__dirname, '/public')));
 var projectTileData = [
 	{
 		tileImg:[
+			"./assets/projectImgs/Leonardo/1.png",
+		],
+		projName:"Leonardo App Store",
+		projType:"App Store",
+		tag:"leonardo",
+		github:"",
+		link:"http://support.leonardo.com/hc/en-us/articles/225619607-Vizlly-August-2016-Release-Details",
+		stack:"MEAN Stack, MySQL, Java, CSS (Boostrap, LESS), JS",
+		about:[
+			"Worked with an agile scrum team to design, develop, test, and launch Leonardo’s first app store.",
+			"Worked with design and architecture teams to refactor existing code to better follow internal standards and improve efficiency.",
+			"Performed debugging, code reviewing, and bug fixing for several Leonardo software applications.",
+			"Created automation scripts for unit testing features in Jasmine and Karma."
+		],
+		notes:[
+			"Was done while working for Leonardo Worldwide Corporation as a full stack software engineering intern."
+		],
+		timeout: 7000
+	},
+	{
+		tileImg:[
 			"./assets/projectImgs/Fitbit/1.png",
 			"./assets/projectImgs/Fitbit/2.png",
 			"./assets/projectImgs/Fitbit/3.png",
@@ -91,7 +112,7 @@ var projectTileData = [
 		tag:"movies",
 		github:"https://github.com/heliowitz/Movies-DB",
 		link:"",
-		stack:"MySQL, Flask, Python, HTML, CSS (Bootstrap), JS (JQuery)",
+		stack:"MySQL, Python, HTML, CSS (Bootstrap), JS (JQuery)",
 		about:[
 			"Developed an IMDb-style database client that allows different users (staff, customers, etc.) to access or manipulate certain aspects of the data.",
 			"Designed and implemented a modern UI using Bootstrap and JQuery.",
@@ -178,7 +199,7 @@ var projectTileData = [
 		tag:"website",
 		github:"https://github.com/heliowitz/Personal-Site-Old",
 		link:"",
-		stack:"HTML (EJS), CSS (Bootstrap, JQuery), JS",
+		stack:"HTML (EJS), CSS (Bootstrap), JS (JQuery)",
 		about:[
 			"Developed a personal website to showcase personal projects.",
 			"Significantly improved from last year’s implementation."
