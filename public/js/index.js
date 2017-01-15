@@ -4,15 +4,16 @@ $(window).on('load', function(){
 
         $("#typed").typed({
             strings: [
-            	"born to create and share.", 
-            	"a design-minded developer.",
-            	"passionate about code."
+            	"create.", 
+            	"^2000 share.",
+            	"^2000 learn.",
+            	"^2000 code.",
             ],
-            startDelay: 3000,
+            startDelay: 2000,
             backDelay: 3000,
-            backSpeed: 10,
+            backSpeed: 50,
             loop: true,
-            typeSpeed: 10
+            typeSpeed: 50
         });
 
 	$('.grid').masonry({
