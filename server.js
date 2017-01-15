@@ -68,7 +68,7 @@ var projectTileData = [
 		tag:"graphic",
 		github:"https://github.com/heliowitz/Graphic-Designers",
 		link:"http://publish.uwo.ca/~yding96/index.html",
-		stack:"HTML, CSS, JS",
+		stack:"HTML, CSS (Bootstrap), JS (JQuery)",
 		about:[
 			"Built a website to showcase the styles and impacts of famous graphic designers.",
 			"Was selected as one of the best websites created in the class, and is currently used as a model of success for 2nd year web students. "
@@ -91,7 +91,7 @@ var projectTileData = [
 		tag:"movies",
 		github:"https://github.com/heliowitz/Movies-DB",
 		link:"",
-		stack:"MySQL, Flask, Python, HTML, Bootstrap, JS",
+		stack:"MySQL, Flask, Python, HTML, CSS (Bootstrap), JS (JQuery)",
 		about:[
 			"Developed an IMDb-style database client that allows different users (staff, customers, etc.) to access or manipulate certain aspects of the data.",
 			"Designed and implemented a modern UI using Bootstrap and JQuery.",
@@ -178,7 +178,7 @@ var projectTileData = [
 		tag:"website",
 		github:"https://github.com/heliowitz/Personal-Site-Old",
 		link:"",
-		stack:"HTML (EJS), CSS (Bootstrap), JS",
+		stack:"HTML (EJS), CSS (Bootstrap, JQuery), JS",
 		about:[
 			"Developed a personal website to showcase personal projects.",
 			"Significantly improved from last year’s implementation."
