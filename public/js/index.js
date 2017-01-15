@@ -4,10 +4,10 @@ $(window).on('load', function(){
 
         $("#typed").typed({
             strings: [
-            	"create.", 
-            	"^2000 share.",
-            	"^2000 learn.",
-            	"^2000 code.",
+            	"born to create.", 
+            	"^2000 born to share.",
+            	"^2000 born to learn.",
+            	"^2000 born to code.",
             ],
             startDelay: 2000,
             backDelay: 3000,
