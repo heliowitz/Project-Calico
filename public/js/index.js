@@ -2,6 +2,19 @@
 $(window).on('load', function(){
 	$('body').addClass('loaded');
 
+        $("#typed").typed({
+            strings: [
+            	"born to create and share.", 
+            	"a design-minded developer.",
+            	"passionate about code."
+            ],
+            startDelay: 3000,
+            backDelay: 3000,
+            backSpeed: 10,
+            loop: true,
+            typeSpeed: 10
+        });
+
 	$('.grid').masonry({
 		itemSelector: '.tile', 
 		columnWidth: 420, 
