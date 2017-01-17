@@ -126,6 +126,30 @@ var projectTileData = [
 	},
 	{
 		tileImg:[
+			"./assets/projectImgs/Darwin/1.png",
+			"./assets/projectImgs/Darwin/2.png",
+			"./assets/projectImgs/Darwin/3.png"
+		],
+		projName:"Darwin Rockets",
+		projType:"Genetic Algorithms Simulation",
+		tag:"darwin",
+		github:"https://github.com/heliowitz/Project-Darwin-Rockets",
+		link:"",
+		stack:"HTML, CSS (Bootstrap), JS (P5)",
+		about:[
+			"Developed a P5 JavaScript simulation to illustrate how genetic algorithms worked.",
+			"Each rocket starts with a randomly-generated flight plan in their DNA, which gets mutated and selected to create an ideal rocket population.",
+			"Designed a fitness function incorporating time and space performance, used a single-point crossover, and an exponential selection mating pool."
+		],
+		notes:[
+			"Was my first time playing around with genetic algorithms.",
+			"Learning the key ideas behind genetic algorithms was fairly easy.",
+			"Much more of my time was spent researching different selection, mutation and crossover strategies, their pros and cons, etc."
+		],
+		timeout: 9000
+	},
+	{
+		tileImg:[
 			"./assets/projectImgs/Asteroids/1.png",
 			"./assets/projectImgs/Asteroids/2.png",
 			"./assets/projectImgs/Asteroids/3.png"
@@ -143,7 +167,7 @@ var projectTileData = [
 		notes:[
 			"An introduction to game-design. Was a great personal outlet for creativity."
 		],
-		timeout: 10000
+		timeout: 10000		
 	},
 	{
 		tileImg:[
