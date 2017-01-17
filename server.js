@@ -134,7 +134,7 @@ var projectTileData = [
 		projType:"Genetic Algorithms Simulation",
 		tag:"darwin",
 		github:"https://github.com/heliowitz/Project-Darwin-Rockets",
-		link:"",
+		link:"http://codepen.io/heliowitz/pen/MJbbbz?editors=1010",
 		stack:"HTML, CSS (Bootstrap), JS (P5)",
 		about:[
 			"Developed a P5 JavaScript simulation to illustrate how genetic algorithms worked.",
